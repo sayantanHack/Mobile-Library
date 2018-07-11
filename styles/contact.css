@@ -1,0 +1,92 @@
+h1{
+  font-style: oblique;
+}
+nav
+{
+  margin-top: 0px;
+  padding: 23px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 0px 2px 10px rgba(200,1, 10, 0.5);
+  transition: 0.3s;
+  position: inherit;
+}
+#nav-3{
+  background-color: #c28d22;
+}
+.link-1
+{
+  -webkit-transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-1:hover
+{
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+body{
+  background: #347a5e;
+}
+.heading{
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.frm {
+  width: 250px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.frm form{
+  width: 200px;
+}
+.frm form input{
+  font-size: 20px;
+  text-align: center;
+  color: #e9f0d7;
+}
+button{
+  padding: 15px 20px;
+  font-size: 16px;
+  background: #0078FF;
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  color: #FFF;
+}
+button:hover{
+  transition: 0.7s;
+  background: #fff;
+  color: #093ef2;
+}
+
+
+input {
+  width: 100%;
+  margin: 20px 0;
+  background: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 1px solid #0078ff;
+}
+#msg{
+  margin-top: 60px;
+}
+
+::webkit-input-placeholder {
+  color: #EAEAEA;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.foot a{
+  text-decoration: none;
+}
